@@ -12,7 +12,7 @@ public class WebConfig implements WebMvcConfigurer {
         registry.addMapping("/api/**")
                 .allowedOrigins(
                         "https://resume-frontend-cybercrime.netlify.app",
-                        "https://dreamy-cranachan-baac8b.netlify.app",
+                      "https://jolly-kheer-3cf01e.netlify.app/",
                         "https://your-frontend.vercel.app",
                         "http://localhost:5173",
                         "http://localhost:3000"
