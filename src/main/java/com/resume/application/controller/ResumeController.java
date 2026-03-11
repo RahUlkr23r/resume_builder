@@ -24,7 +24,6 @@ import com.resume.application.service.ResumeService;
 
 @RestController
 @RequestMapping("/api/resume")
-@CrossOrigin(origins = "https://resume-frontend-cybercrime.netlify.app")
 public class ResumeController {
     
     @Autowired
