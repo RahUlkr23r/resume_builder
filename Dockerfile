@@ -1,5 +1,5 @@
-# Use OpenJDK 21 image
-FROM openjdk:21-jdk-slim
+# Use Java 21 image
+FROM eclipse-temurin:21-jdk-jammy
 
 # Set working directory
 WORKDIR /app
